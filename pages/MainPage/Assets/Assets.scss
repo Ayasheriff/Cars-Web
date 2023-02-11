@@ -1,0 +1,327 @@
+.assetsPage{
+    width: 100%;
+    height:100% ;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.assets-divs{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    align-items:start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  gap: 24;
+}
+.blueground{
+    background-color: #438FFE;
+    color: white;
+   column-count: 2;
+   flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 30px;
+   margin-left: 10px;
+    border-radius: 10PX;
+    margin-top:10px  ;
+    width: 361px;
+    height: 674px;
+    
+
+
+}
+.assets-name{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #C6DCFC;
+}
+.assets-numb{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blueLabels{
+    display: flex;
+    flex-direction: column;
+   margin-left: 20px;
+   
+}
+.pannamera{ 
+    width: 316px;
+    margin-top: -450px;
+    margin-left: 60px;
+}
+.assets-div2{
+    
+ align-content: flex-start;
+ display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.assets-title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    align-items:start;
+    justify-content: center;
+   margin-left: 60px;
+   margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+.waveChartLine{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 639px;
+    height: 270px;
+    
+}
+.asset-chart{
+
+    display: flex;
+    margin-top: 20px;
+   justify-content: space-between;
+   
+}
+.asset-chartTitle{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.viewall-chart{
+    color: gray;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.chart-data{
+    list-style: none;
+    color: gray;
+   display: flex;
+  margin-top: 200px;
+  gap: 4%;
+  font-size: 12px;
+   justify-content: center;
+  
+
+}
+.chart-label{
+    text-align: end;
+    justify-content: end;
+   
+}
+.asset-double{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+.asset-icons{
+    background-color: white;
+    height: 314px;
+    width: 311px;
+   
+    border-radius: 10px;
+   
+}
+.asset-check{
+    background-color: white;
+    height: 314px;
+    width: 305px;
+    border-radius: 10px;
+}
+
+.asset-words{
+    background-color: white;
+    width: 639px;
+    height: 201px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.textIcon{
+    display: flex;
+    justify-content: left;
+   
+}
+.icon-logo{
+    margin-right: 10px;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+    box-shadow: -1px 1px 10px -1px lightgray;
+}
+.icons-labels{
+    margin-left: 22px;
+   
+}
+button{
+    margin-bottom: 18px;
+    margin-top: 4px;
+    
+}
+.icons-header{
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-bottom: 10px; ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.icons-date{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.icons-para{
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 4px;
+    color: gray;
+}
+.btnIcon{
+    border-radius: 5px;
+    border: none;
+    padding: 3px 5px;
+
+}
+.complete{
+    background-color: #70CF97;
+    color: white;
+}
+.check-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.dropdowen{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
+.checkLine{
+    width: 85%;
+   margin-left: 20px;
+ margin-bottom: 15px;
+   opacity: 20%;
+}
+.sensors{
+    font-size: 18px;
+    font-weight: 500;
+}
+.check-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 28px;
+ 
+   
+}
+label{
+    margin-left: 10px;
+}
+
+.checkAsset{
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.checkbox{
+    display: flex;
+ justify-content: space-between;
+ margin-top: 5px;
+ 
+
+}
+.checkIcon{
+    align-items: right;
+ 
+}
+.seeAll{
+    border: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #FF6370;
+    color: white;
+    border-radius: 5px;
+}
+
+input{
+    accent-color: #FF6370;
+    
+}
+/* reminder-fourth div */
+.reminder-header{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 20px 0px 20px;
+}
+.reminderTitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+.addNew{
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    background-color: #A162F7;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 10px;
+    font-size: 13px;
+    
+}
+.firstCol{
+    font-size: 14px;
+    color: gray;
+}
+.textLine{
+    width: 90%;
+    margin: 0px 30px;
+    opacity: 20%;
+
+ 
+}
+
+/*curve chart */
+.curveChart{
+    margin-left: 80px;
+    margin-top: -30px;
+    width: 500px;
+    height: 200px;
+}
+.barChart-made{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -210px;
+    margin-left: 100px;
+    gap: 10px;
+
+}
+.LineBar{
+    background-color:  #8668e185;
+    width: 40px;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+.lineData{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,147 @@
+/* .sidebar {
+    background-color: white;
+
+    height: 100vh;
+    padding:0px  90px;
+    float: left;
+    
+} */
+
+/* .title {
+    
+   text-align: left;
+   
+    
+
+} */ 
+
+
+/* .setting {
+    position: relative;
+    top: 90px;
+
+
+}
+
+.log{
+    position: relative;
+    top: 80px;
+} */
+
+
+/* h3 .motiv {
+    margin-bottom: 50px;
+    text-align: left;
+    float: left;
+    
+    
+}  */
+
+/* .logo{
+    float: left;
+    margin-left: 20px;
+}  */
+
+/* .word:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+
+}
+.word{
+    position: relative;
+    text-align:left ;
+    
+    text-decoration: none;
+    color: black;
+    padding:0px 20%;
+    float: left;
+    line-height: 30px;
+    margin: 10PX 0px;
+}  */
+
+
+
+
+
+
+
+
+.sidebar{
+    width: 248px;
+    height: 100%;
+    background: #FFFFFF;
+    font-size: 14px;
+    padding-top: 20px;
+
+
+
+}
+.logo{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+   
+    color: #1F2128;
+    margin-bottom: 20px;
+    
+  
+    display: flex;
+   
+    align-items: flex-start;
+    padding: 0px 5px;
+    
+    gap: 10px;
+    
+    
+}
+
+.menu-bars{
+    text-align: center;
+    justify-content: center;
+   
+    margin-top: 30px;
+    margin-left: 20px;
+   
+}
+.title{
+    margin: 15px 10px;
+    display: flex;
+    border-radius: 4px;
+}
+.logoIcon{
+    justify-content: center;
+    margin-top: -30px;
+}
+.motiv{
+    
+    justify-content: center;
+    margin-top: -30px;
+   
+}
+.sideIcon{
+    justify-content: left;
+}
+.word{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    
+    justify-content: left;
+
+    padding: 0px 10px;
+  
+    
+   
+   
+}
+.title:hover{
+   background-color: lightgray;
+   
+}
+.lastIcons{
+    margin-top: 190px;
+}

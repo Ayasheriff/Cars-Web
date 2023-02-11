@@ -1,0 +1,106 @@
+
+
+
+.subtitle{
+   
+    margin-top: 10px;
+    margin-left: -150px;
+    text-align: left;
+    line-height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+.sync{
+
+    color: #72767C;
+}
+.card-title{
+   
+    text-align: left;
+    
+
+}
+.cardHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 100px;
+
+    
+}
+.card-items{
+    display: flex;
+    flex-direction: row;
+    color: #72767C;
+    font-size: 14px;
+    justify-content: space-between;
+    text-align: left;
+    gap: 140PX;
+    margin-top: 30px;
+    
+    
+   
+}
+.redo{
+
+    color: #8c9199;
+    
+}
+
+/*
+.speed{
+    text-align: start;
+    justify-content: end;
+    margin-right: 160px;
+   position: relative;
+   top: 40px;
+    color: #72767C;
+}
+.cog{
+ 
+    color: #72767C;
+}
+.bolt{
+    color: #72767C;
+   
+
+}
+.price{
+    color: #72767C;
+    text-align: start;
+    justify-content: end;
+    margin-left: 180px;
+    position: relative;
+    top: 15px;
+
+}  */
+
+.carCards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin: -5px;
+    
+    
+  
+}
+
+.carCard{
+   
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  max-width: 100%;
+  background-color: white;
+ 
+  border-radius: 10PX;
+  margin:10px 20px ;
+  width: 318px;
+  height: 236px;
+  
+}

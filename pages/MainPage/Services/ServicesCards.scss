@@ -1,0 +1,20 @@
+.cardsNumber{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    
+
+    .cardnumber{
+        text-align: center;
+        border-radius: 5PX;
+        margin: 5px;
+        width: 50px;
+        height: 70px;
+    }
+    .cardNumb-title{
+        margin: 20px 0px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

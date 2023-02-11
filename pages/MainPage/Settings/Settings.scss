@@ -1,0 +1,147 @@
+.settingPage{
+    background-color: white;
+   border: 20px #F5F6FA solid;
+    .settingTitle{
+        padding:20px 40px;
+        font-size: 30px;
+    }
+    .settingIcons{
+        list-style: none;
+        color: #242731;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        
+        margin-left: 40px;
+        margin-top: 10px;
+        .setIcon{
+            margin-right: 62px;
+            padding: 2px 5px;
+            &:hover{
+                color: black;
+                background-color: #a062f73c;
+                padding: 2px 5px;
+            }
+        }
+       
+    }
+    .settingProfile{
+        margin: 40px;
+        .update{
+            font-size: 16px;
+            color: grey;
+            margin-top: 6px;
+            margin-bottom: 20px;
+        }
+        .profileLine{
+            opacity: 25%;
+        }
+    }
+    .inputs{
+        display: flex;
+        
+       gap: 40px;
+        margin:20px 40px;
+        .firstInput{
+            display: flex;
+            flex-direction: column;
+            .inputText{
+                border-radius: 5px;
+                border: 1px lightgray solid;
+                width: 470px;
+                height: 35px;
+             }
+             .inputLabel{
+                margin-bottom: 10px;
+                margin-left: 1px;
+                color:  #7C7C8D;
+             }
+        }
+       
+    }
+    .emailAddress{
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+
+        .emailAddressLabel{
+            color:  #7C7C8D;
+            font-size: 14px;
+            margin-left: 1px;
+            margin-bottom: 10px;
+        }
+        .emailAddressInput{
+            height: 35px;
+            border: 1px lightgray solid;
+            border-radius: 5px;
+            width: 980px;
+            padding: 0px 5px;
+        }
+
+    }
+    .profileLine2{
+       margin: 40px;
+        opacity: 25%;
+    }
+    .profileContentImg{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px;
+        .profileContentNamed{
+            display: flex;
+            gap: 150px;
+            
+            .profileTextNamed{
+                display: flex;
+                flex-direction: column;
+                .yourPhoto{
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .profileDisplayed{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #7C7C8D;
+                }
+            }
+            .profilePhoto{
+                border-radius: 50px;
+            }
+        }
+        
+       .profileLabelBtns {
+         text-decoration: none;
+         margin-right: 100px;
+         .linkProfile{
+            text-decoration: none;
+            color: #7C7C8D;
+            margin-left: 50px;
+            font-size: 15px;
+         }
+       }
+    }
+
+    .lastProfileLabels{
+        display: flex;
+        margin: 40px;
+        .socialprofileText{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .socialInputs{
+            display: flex;
+            flex-direction: column;
+          
+            .socialInput{
+                margin-bottom: 10px;
+                margin-left: 310px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+                width: 500px;
+                height: 35px;
+                padding: 5px;
+            }
+
+        }
+    }
+}

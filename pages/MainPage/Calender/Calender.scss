@@ -1,0 +1,279 @@
+.calenderContainer{
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+
+    .calenderHeader{
+        display: flex;
+        flex-direction: column;
+        .calenderbox{
+            background-color: white;
+            border-radius: 10px;
+            width: 384px;
+            height: 375px;
+            margin: 10px 0px;
+            .calenderNumb{
+                width: 80%;
+                margin: 40px;
+                color: #FF6370;
+            }
+        }
+        .upcomingEvents{
+            display: flex;
+            flex-direction: column;
+            background-color:white;
+            border-radius: 10px;
+            width: 384px;
+            height: 421px;
+            margin: 10px 0px;
+
+            .eventTitle{
+                margin: 10px 20px;
+            }
+
+            .upcomingContent{
+                display: flex;
+                justify-content: left;
+                gap: 20px;
+                margin: 0px 20px;
+
+               
+
+                .listTime{
+                    list-style: none;
+                    line-height: 50px;
+                    color: grey;
+                    .halfTen{
+                        color: #FF6370;
+                    }
+                }
+
+                .driftSeries{
+                    display: flex;
+                    flex-direction: column;
+
+                    .driftTitle1{
+                        background-color: #A162F7;
+                        border-radius: 10px;
+                        width: 278px;
+                        height: 63px;
+                        color: white;
+                        margin-top: 40px;
+                        padding: 10px;
+                        .driftFire{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        .jdm{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                    }
+                    .driftLine{
+                        margin-top: 70px;
+                        margin-bottom: 30px;
+                        
+                    }
+                    .driftTitle2{
+                        background-color: #70CF97;
+                        border-radius: 10px;
+                        width: 278px;
+                        height: 63px;
+                        color: white;
+                        margin-top: 40px;
+                        padding: 10px;
+                        .driftFire{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        .jdm{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        
+                    }
+                }
+            }
+
+
+
+
+        }
+    }
+    .calenderHeader2{
+        background-color: white;
+        border-radius: 10px;
+        width: 623px;
+        height: 820px;
+        margin-top: 30px;
+        .calender-narbar{
+            width: 100%;
+            height: 63px;
+            background-color: blue;
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+           .navCalenderBtn{
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.34);
+            padding: 0px 10px;
+            color: white;
+           }
+        }
+
+        .navCalenderContent{
+            display: flex;
+            .calenderList2{
+                list-style: none;
+                line-height: 80px;
+                margin:-10px 20px ;
+                color: grey;
+            }
+            .calenderTimeLabel{
+                display: flex;
+                flex-direction: column;
+                .calenderBarLabel1{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #A162F7;
+                    border: 4px solid lightgray;
+                    border-radius: 10px;
+                    width: 479px;
+                    height: 75px;
+                    margin: 20px 10px 10px 10px;
+                    color: white;
+                    padding: 0px 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    .timeSpeed{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                    }
+                }
+                .calenderBarLabel2{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #725CFF;
+                    border: 4px solid lightgray;
+                    border-radius: 10px;
+                    width: 479px;
+                    height: 141px;
+                    margin: 10px 10px;
+                    color: white;
+                    padding: 0px 20px;
+                    font-size: 16px;
+                    line-height: 35px;
+                    .timeSpeed2{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                    }
+                }
+
+                .calenderBarLabel3{
+                    display: flex;
+                    gap: 10px;
+                    margin:10px;
+                    .timeSpeed3{
+                        background-color: #2884FF;
+                        width: 226px ;
+                        height: 110px;
+                        border: 4px solid lightgrey;
+                        border-radius: 10px;
+                        color: white;
+                        padding: 10px;
+                        font-size: 12px;
+                        line-height: 25px;
+                        .timeSpeed5{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-right: 20px;
+                        }
+                    }
+                    .timeSpeed4{
+                        background-color: white;
+                        width: 241px ;
+                        height: 110px;
+                        border: 4px solid lightgrey;
+                        border-radius: 10px;
+                        padding: 10px;
+                        padding: 10px;
+                        font-size: 12px;
+                        line-height: 25px;
+                        .timeSpeed6{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+
+                .calenderBarLabel4{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #70CF97;
+                    border: 4px solid lightgray;
+                    border-radius: 10px;
+                    width: 479px;
+                    height: 76px;
+                    margin:  10px;
+                    color: white;
+                    padding: 0px 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    .timeSpeed44{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                    } 
+                }
+
+                .calenderBarLabel5{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #FF764C;
+                    border: 4px solid lightgray;
+                    border-radius: 10px;
+                    width: 479px;
+                    height: 86px;
+                    margin: 10px;
+                    color: white;
+                    padding: 0px 20px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    .timeSpeed55{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                    } 
+                }
+                .calenderBarLabel6{
+                    display: flex;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 4px solid lightgray;
+                    border-radius: 10px;
+                    width: 479px;
+                    height: 110px;
+                    margin: 10px;
+                    padding: 0px 20px;
+                    font-size: 12px;
+                    line-height: 30px;
+                    .timeSpeed66{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                    } 
+                }
+
+                
+            }
+        }
+    }
+}

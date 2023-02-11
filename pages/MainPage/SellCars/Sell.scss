@@ -1,0 +1,203 @@
+.sell-container{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sellTitle{
+    margin: 20px 50px;
+}
+/* first div */
+.sellimgChart{
+  justify-content: center;
+  align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin: 10px 0px;
+ 
+  
+}
+.sellImg{
+    width: 657px;
+    height: 398px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    .oval{
+        width: 400PX;
+        margin-top: 120px;
+        margin-left: 100px;
+       
+    }
+  .sellimgPic{
+    width: 400px;
+    margin-top: -250px;
+    margin-left: 100px;
+  }
+  .sellimgTitle{
+    margin: 28px 24px;
+    }
+  
+}
+
+
+.sellChart{
+    display: flex;
+    flex-direction: column;
+    width:370px;
+    height: 398px;
+    background-color: white;
+    border-radius: 10px;
+ 
+   
+}
+.barChartSell{
+   margin-top: -20px;
+   margin-right: 15px;
+}
+.sellchartTitle{
+    margin: 28px 24px;
+}
+/* title2 */
+.sellHeader2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.sellbtns{
+    display: flex;
+   gap: 20px;
+}
+.sellbtn{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+
+// firstbar
+.FirstBar{
+    background-color: white;
+    border-radius: 10px;
+   height: 134px;
+   margin: 20px 40px;
+   display: flex;
+   justify-content: space-between;
+   .divbarTitle{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      margin: 20px;
+      .averagePrice{
+        color: gray;
+        font-size: 12px;
+       }
+       .dollarnumb{
+        font-size: 18px;
+        color: #FF6370;
+       }
+       .marketAvarage{
+        color: gray;
+        font-size: 12px;
+       }
+       .arrowbtn{
+        border: none;
+        border-radius: 50px;
+        background-color: #FF6370;
+        color: white;
+        margin: 10px 70px 0px 0px;
+        padding: 7px 0px;
+       }
+   
+    }
+
+   .prgrassDivLine{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     .grrn1{
+        width: 80px;
+     }
+     .impressionShare{
+        color: grey;
+       
+     }
+   }
+
+   .manyProgress{
+        justify-content: center;
+        margin: 20px 0px;
+   }
+
+   .carIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .carLine{
+            background-color: rgba(176, 232, 250, 0.504);
+            margin-right: 70px;
+            padding: 0px 4px;
+            border-radius: 5px;
+            color: #407EF9;
+            
+        }
+        .carPrice{
+            color: #407EF9;
+            font-size: 20px;
+        }
+        .modelSpend1{
+            color: grey;
+            font-size: 12px;
+        }
+   }
+
+   .shareIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+    .share{
+        background-color: rgba(250, 176, 229, 0.504);
+        margin-right: 70px;
+        padding: 0px 4px;
+        border-radius: 5px;
+        color: #FF6370;
+        
+    }
+    .sharePrice{
+        color:#FF6370;
+        font-size: 20px;
+    }
+    .modelSpend2{
+        color: grey;
+        font-size: 12px;
+    }
+
+    .dollarIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     .dollar{
+         background-color: rgba(244, 176, 250, 0.504);
+         margin-right: 70px;
+         padding: 0px 4px;
+         border-radius: 5px;
+         color: #A162F7;
+         
+     }
+     .dollarIconPrice{
+         color:#A162F7;
+         font-size: 20px;
+     }
+     .modelSpend3{
+         color: grey;
+         font-size: 12px;
+     }
+    }
+
+ 
+} 

@@ -1,0 +1,149 @@
+.booking-container{
+   
+    width: 100%;
+   
+ display: flex;
+ flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+ 
+    
+
+}
+
+.booking-items{
+   
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-title{
+    text-align: left;
+    justify-content: start;
+    margin:10px 30px;
+}
+
+
+
+
+
+.bookingCard{
+   display: flex;
+   flex-direction: column;
+  
+   justify-content: left;
+    background-color: white;
+   
+    border-radius: 10PX;
+    margin:0px 20px  ;
+    margin-bottom: 20px;
+    width: 325px;
+    height: 267px;
+}
+.booking-subTitle{
+    text-align: left;
+    margin-left: 20px;
+    color: grey;
+    
+    
+  
+}
+.bookingCardHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.booking-heart{
+    color: gray;
+  
+}
+.booking-cardTitle{
+
+    text-align: start;
+    justify-content: left;
+}
+.booking-img{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+    
+}
+.bookingLabels{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    color: gray;
+}
+/* .booking-speed{
+    text-align: start;
+    justify-content: end;
+    margin-left: 10px;
+   position: relative;
+   top: -70px;
+    color: #72767C;
+}
+.booking-price{
+    text-align: start;
+    justify-content: end;
+    margin-left: 290px;
+   position: relative;
+   top:-90px;
+    color: #72767C;
+} */
+.bookingLabels{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* btns */
+.bookingBtns{
+    display: flex;
+    gap: 10px;
+    
+}
+.bookingBtn{
+    padding: 0px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.bookingBtn2{
+    padding: 0px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: grey;
+}
+.bookingHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.bookingIcons{
+    display: flex;
+   gap: 10px;
+    margin-bottom: 20px;
+}
+.dashboardSquares{
+    background-color: white;
+   padding: 5px 8px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px grey;
+}
+.lineCircles{
+    background-color: #A162F7;
+    padding: 5px 8px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+ 
+.rightIconsBooking{
+    display: flex;
+    gap: 5px;
+}
